@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Source+Code+Pro:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.sidebar {
+  position: absolute;
+  background-color: rgb(198, 191, 191);
+  /* width: 300px; */
+  height: 100vh;
+  font-family: "Lobster", cursive;
+  transition:transform 0.4s ease-in;
+}
+
+.sidebar nav {
+  padding: 22px;
+}
+
+.sidebar nav li {
+  list-style: none;
+  font-size: 20px;
+  padding: 25px 0;
+}
+
+.sidebar nav li a {
+  text-decoration: none;
+  color: black;
+}
+
+.main {
+  background-color:white;
+  width: auto;
+  padding: 5px;
+}
+
+.container {
+  display: flex;
+}
+
+.infocontainer {
+  /* background-color: green; */
+  width: auto;
+  height: auto;
+  margin: 147px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.hello {
+  font-size: 3em;
+}
+
+.name {
+  font-size:2.5em;
+  font-weight: bold;
+}
+
+.about {
+  font-size: 2em;
+  font-family: "Lobster", cursive;
+}
+
+.buttons {
+  margin-top: 15px;
+}
+
+.btn {
+  padding: 5px 5px;
+  border-radius: 17px;
+  background-color: cadetblue;
+  color: white;
+  font-size: 15px;
+  margin: 0 2px;
+  cursor: pointer;
+}
+
+.btn-sm {
+  font-size: 10px;
+  margin: 0 2px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.moreabout {
+  font-size: 2em;
+
+  font-family: "Source Code Pro", monospace;
+}
+
+.devinfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Source Code Pro", monospace;
+  font-size: 13px;
+  width: 50%;
+  margin-left: 29px;
+}
+
+.devpic{
+  width: 50vw;
+  height: auto;
+}
+
+.devpic img {
+  height: inherit;
+  width: inherit;
+}
+
+.contactform {
+  padding: 0 50px;
+  padding-top: 100px;
+  font-family: "Source Code Pro", monospace;
+  font-weight: bold;
+  margin: 0 88px;
+}
+
+.contactform h1 {
+  font-family: "Lobster", cursive;
+  /* text-align: center; */
+  padding: 12px 0;
+}
+
+.contactform form div {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactform form div input {
+  /* width: 20vw; */
+  border-radius: 5px;
+  margin: 6px o 0 0;
+  padding: 3px;
+}
+
+#emailHelp {
+  font-size: 10px;
+  color: midnightblue;
+  margin: 0 5px;
+}
+
+#form-check {
+  flex-direction: row;
+}
+
+#form-check input {
+  width: 24px;
+  margin: 3px 0;
+}
+
+.blogcontainer{
+  margin: 20px 55px;
+}
+
+.intro{
+  margin: 20px 55px;
+}
+
+.blogitem {
+  margin: 30px;
+  font-family: "Source Code Pro", monospace;
+}
+
+h1 {
+  font-family: "Lobster", cursive;
+  margin: 23px;
+}
+
+p {
+  font-family: "Source Code Pro", monospace;
+}
+
+.intro h2 {
+  font-family: "Lobster", cursive;
+  margin: 15px;
+}
+
+.intro p {
+  font-family: "Source Code Pro", monospace;
+  margin: 12px;
+}
+
+.skillcontainer {
+  margin: 13px;
+}
+
+.skill {
+  width: 200px;
+  height: 7px;
+  background-color: red;
+  /* border: 2px solid black; */
+}
+.skillback{
+  width: 230px;
+  height: 7px;
+  background-color: rgb(193, 188, 188);
+  border: 2px solid black;
+}
+
+.skillitem {
+  display: flex;
+  align-items: center;
+}
+
+.ninty {
+  width: 223;
+}
+
+.seventy {
+  width: 150px;
+  background-color: aqua;
+}
+.ninezero{
+  width: 200px;
+  background-color: rgb(55, 255, 0);
+}
+.skillmidle{
+  width: 160px;
+  background-color: rgb(201, 85, 108);
+}
+
+.sixty {
+  width: 170px;
+  background-color: rgb(121, 151, 233);
+}
+
+.plist {
+  margin: 20px;
+}
+
+.music1 img {
+  width: 57px;
+  height: 52px;
+  margin: 25px;
+}
+
+
+.travel img{
+  width: 77px;
+  height: 72px;
+  margin: 25px;
+}
+
+.hamburger{
+  position: absolute;
+  cursor: pointer;
+  left: 10px;
+  top: 10px;
+}
+
+.cross{
+  margin-left: 78px;
+  margin-top: -1px;
+
+}
+
+.sidebargo{
+   transform: translate(-453px, 0px);
+    position: absolute;
+  }
+
+
+/* @media(max-width: 1030px) { */
+  /* *{
+    background-color: red;
+  } */
+  /* .sidebar {
+    transform: translate(-453px, 0px);
+    position: absolute;
+  } */
+
+  /* .devpic{
+    display: none;
+  } */
+
+  /* .main{
+    margin: 0 0px;
+  }
+
+  .buttons{
+    font-size: 6px;
+  }
+} */
+
+@media(max-width: 600px) {
+
+  .infocontainer {
+    display: block;
+    margin: 72px 0px;
+  }
+
+  .devinfo{
+    
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 8px 0px;
+  }
+
+  .devpic{
+    width: 100%;
+    height: auto;
+  }
+}
